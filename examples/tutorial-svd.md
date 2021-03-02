@@ -1,4 +1,6 @@
-# Tutorial: Linear algebra on n-dimensional arrays
+---
+title: "Tutorial: Linear algebra on n-dimensional arrays"
+---
 
 ```{.python .cb.nb jupyter_kernel=python3}
 import numpy as np
