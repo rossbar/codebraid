@@ -2,7 +2,7 @@
 title: "Tutorial: Linear algebra on n-dimensional arrays"
 ---
 
-```{.python .cb.nb jupyter_kernel=python3}
+```{.python .cb.nb jupyter_kernel=python3 hide=all}
 import numpy as np
 np.random.seed(1)
 ```
