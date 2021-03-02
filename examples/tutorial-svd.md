@@ -1,12 +1,9 @@
 # Tutorial: Linear algebra on n-dimensional arrays
 
-::: {.currentmodule}
-numpy
-:::
-
-::: {.testsetup}
-import numpy as np np.random.seed(1)
-:::
+```{.python .cb.nb jupyter_kernel=python3}
+import numpy as np
+np.random.seed(1)
+```
 
 ## Prerequisites
 
@@ -45,7 +42,10 @@ linear algebra, the Singular Value Decomposition, to generate a
 compressed approximation of an image. We\'ll use the `face` image from
 the [scipy.misc]{.title-ref} module:
 
-> \>\>\> from scipy import misc \>\>\> img = misc.face()
+```{.python .cb.nb}
+from scipy import misc
+img = misc.face()
+```
 
 ::: {.note}
 ::: {.title}
@@ -67,14 +67,17 @@ are treated when converted to NumPy arrays, see
 Now, `img` is a NumPy array, as we can see when using the `type`
 function:
 
-    >>> type(img)
-    <class 'numpy.ndarray'>
+```{.python .cb.nb}
+type(img)
+```
 
 We can see the image using the [matplotlib.pyplot.imshow]{.title-ref}
 function:
 
-    >>> import matplotlib.pyplot as plt
-    >>> plt.imshow(img)
+```{.python .cb.nb}
+import matplotlib.pyplot as plt
+plt.imshow(img)
+```
 
 ::: {.plot align="center" include-source="0"}
 user/plot_face.py
